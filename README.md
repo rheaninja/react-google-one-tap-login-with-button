@@ -43,6 +43,20 @@ ReactDOM.render(
 );
 ```
 
+## Add Login Button use id="googlButton"
+
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import GoogleOneTapLogin from '@rheasmith/react-google-one-tap-login';
+
+ReactDOM.render(
+  <><div id="googleButton"></div></>,
+  document.getElementById('root')
+);
+```
+
+
 ## Props
 
 | Name                   | Type     | Required |                                                         Description                                                          |
