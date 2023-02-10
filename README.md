@@ -5,13 +5,13 @@ React wrapper for google one tap authentication
 ## Install
 
 ```
-npm install react-google-one-tap-login
+npm install @rheasmith/react-google-one-tap-login
 ```
 
 OR
 
 ```
-yarn add react-google-one-tap-login
+yarn add @rheasmith/react-google-one-tap-login
 ```
 
 ## How to use
@@ -19,7 +19,7 @@ yarn add react-google-one-tap-login
 ## As a Hook
 
 ```js
-import { useGoogleOneTapLogin } from 'react-google-one-tap-login';
+import { useGoogleOneTapLogin } from '@rheasmith/react-google-one-tap-login';
 
 useGoogleOneTapLogin({
     onError: error => console.log(error),
@@ -35,7 +35,7 @@ useGoogleOneTapLogin({
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GoogleOneTapLogin from 'react-google-one-tap-login';
+import GoogleOneTapLogin from '@rheasmith/react-google-one-tap-login';
 
 ReactDOM.render(
   <GoogleOneTapLogin onError={(error) => console.log(error} onSuccess={(response) => console.log(response} googleAccountConfigs={{ client_id: // Your google client id here !!! }} />,
