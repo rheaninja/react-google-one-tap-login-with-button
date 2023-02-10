@@ -56,7 +56,6 @@ ReactDOM.render(
 );
 ```
 
-
 ## Props
 
 | Name                   | Type     | Required |                                                         Description                                                          |
